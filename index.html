@@ -3,17 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Footer</title>
 </head>
 <body>
     <footer class="bg-[#659f8f] dark:bg-[#313131]">
-        <div class="container px-6 py-12 mx-auto">
+        <div class="column-1">
+       <h3>Subscribe to our newsletter for updates.</h3>
+       <form>
+        <input type="text" placeholder="Email Address">
+        <button type="submit">Subscribe</button>
+       </form>
+        </div>
+        <div class="column-2">
+            <h3>Quick Link</h3>
+            <a href="#">Home</a>
+            <a href="#">Who We Are</a>
+            <a href="#">Our Philosophy</a>
+        </div>
+        <div class="column-3">
+            <h3>Technologies</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+        </div>
+        <div class="container-px-6-py-12-mx-auto">
             <div class="flex">
                 <a href="#">
+                <div class="line"></div>
                     <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
                 </a>
+                <div class="social-media-icons">
+             <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+             <a href="#"><ion-icon name="logo-html5"></ion-icon></a>
+             <a href="#"> <ion-icon name="logo-css3"></ion-icon></a>
+             <a href="#"><ion-icon name="logo-javascript"></ion-icon></a>
+                </div>
             </div>
-        </div>
+            </div>
+    </div>
+
     </footer>
 </body>
 </html>
